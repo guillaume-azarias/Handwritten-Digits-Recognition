@@ -13,15 +13,21 @@
 - Reference to tutorials and relevant article
 
 **Show me:**
+
 Here is an example of prediction when the input is raw. Neither SVM nor CNN provides an accurate prediction although the accuracy on the test dataset largely exceeded 90%.
+
 ![Failed prediction](./examples/Failed.jpg)
-Now if you select the preprocessing option (using the same input), the prediction are much more often accurate, yet the real accuracy does not reach what was found on the test dataset
+
+Now if you select the preprocessing option (using the same input), the prediction are much more often accurate, yet the real accuracy does not reach what was found on the test dataset.
+\
 ![Accurate prediction](./examples/Yo.jpg)
 
-**Lesson learned**
+**Lesson learned:**
+
 Make sure that you understand your raw data and any preprocessing step that might affect your machine learning model.
 
 **I want to try:**
+
 Sure, the app is accessible [here](https://hub.omegaml.io/apps/gazarias/mnist/), but you will need to generate your own models to use it. Check the [omega|ml](https://www.omegaml.io/) website for more information.
 
 > May you need any information, feel free to contact me at guillaume.azarias@hotmail.com
