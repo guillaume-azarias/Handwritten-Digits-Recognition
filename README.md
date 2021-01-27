@@ -15,11 +15,13 @@
 
 **Show me:**
 
-Here is an example of prediction when the input is raw. Neither SVM nor CNN provides an accurate prediction although the accuracy on the test dataset largely exceeded 90%.
+- Here is an example of prediction when the input is raw. Neither SVM nor CNN provides an accurate prediction although the accuracy on the test dataset largely exceeded 90%.
 
 ![Failed prediction](./examples/Failed.jpg)
 
-Now if you select the preprocessing option (using the same input), the prediction are much more often accurate, yet the real accuracy does not reach what was found on the test dataset.
+
+
+- Now if you select the preprocessing option (using the same input), the prediction are much more often accurate, yet the real accuracy does not reach what was found on the test dataset.
 \
 ![Accurate prediction](./examples/Yo.jpg)
 
