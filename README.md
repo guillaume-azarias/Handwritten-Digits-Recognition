@@ -2,10 +2,10 @@
  Flask app to receive a user input and predict the written digit using a selected Machine Learning model
 
  **Content:**
- - apps: End product of the project. This folder contains the relevant files to make your application running on the web. The content was written following the tutorial from [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [omega|ml](https://github.com/omegaml/apps/tree/master/helloworld).
- - development: This folder contains the files for the development of your app. The files can be used to run on a localhost using the debugging mode to rapidly build your application.
- - examples: Examples of failed and successful predictions.
- - models: Examples of Machine Learning models created to predict handwritten digits.
+ - apps: End product of the project. This folder contains the relevant files to make your application running on the web. The content was written following the tutorials from [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [omega|ml](https://github.com/omegaml/apps/tree/master/helloworld)
+ - development: This folder contains the files for the development of your app. The files can be used to run on a localhost using the debugging mode to rapidly build your application
+ - examples: Examples of failed and successful predictions
+ - models: Examples of Machine Learning models created to predict handwritten digits
 
 **What it does:**
 - Interface accessible from any device (computer, mobile) through the omega|ml apphub
@@ -15,13 +15,13 @@
 
 **Show me:**
 
-- Here is an example of prediction when the input is raw. Neither SVM nor CNN provides an accurate prediction although the accuracy on the test dataset largely exceeded 90%.
+- Here is an example of prediction when the input is sent raw. Neither SVM nor CNN provides an accurate prediction although the accuracy on the test dataset largely exceeded 90%
 
 ![Failed prediction](./examples/Failed.jpg)
 
 
 
-- Now if you select the preprocessing option (using the same input), the prediction are much more often accurate, yet the real accuracy does not reach what was found on the test dataset.
+- Now if you select the preprocessing option, the predictions are much more often accurate, yet the real accuracy does not reach what was found on the test dataset
 \
 ![Accurate prediction](./examples/Yo.jpg)
 
