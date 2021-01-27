@@ -4,7 +4,8 @@
  **Content:**
  - apps: End product of the project. This folder contains the relevant files to make your application running on the web. The content was written following the tutorial from [Flask](https://flask.palletsprojects.com/en/1.1.x/) and [omega|ml](https://github.com/omegaml/apps/tree/master/helloworld).
  - development: This folder contains the files for the development of your app. The files can be used to run on a localhost using the debugging mode to rapidly build your application.
- - models: examples of Machine Learning models created to predict handwritten digits.
+ - examples: Examples of failed and successful predictions.
+ - models: Examples of Machine Learning models created to predict handwritten digits.
 
 **What it does:**
 - Interface accessible from any device (computer, mobile) through the omega|ml apphub
